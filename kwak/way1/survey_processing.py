@@ -1,8 +1,8 @@
 import pandas as pd
-from datetime import datetime, timedelta
+from datetime import timedelta
 from sklearn.preprocessing import MinMaxScaler
 
-import conf_file as conf
+from kwak import conf_file as conf
 
 pd.set_option('display.max_columns', None)
 
