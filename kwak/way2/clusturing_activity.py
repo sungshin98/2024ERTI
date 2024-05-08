@@ -1,4 +1,4 @@
-import conf
+from kwak.way2 import conf
 import pandas as pd
 from os import path
 import os

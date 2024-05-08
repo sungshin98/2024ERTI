@@ -1,5 +1,3 @@
-import conf
-import pandas as pd
 import datetime
 epoch_time = 1598908800
 
