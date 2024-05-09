@@ -7,3 +7,4 @@ survey_path = path.join(data_path, "user_survey_2020.csv")
 sleep_path = path.join(data_path, "user_sleep_2020.csv")
 created_info_path = path.join(data_path, 'created_data', 'clusted_info.csv')
 
+train_path = "G:\dataset\label\\train_label.csv"
