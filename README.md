@@ -7,5 +7,5 @@ default folder name = way3
 Order of execution
 
 
-Change path from 'conf_file.py' to yours 
+Change path from 'conf_file.py' to yours /n
 go Execute_automl.py and run file
