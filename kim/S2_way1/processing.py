@@ -22,7 +22,7 @@ merged_df['userId'] = merged_df['num']
 
 print(merged_df)
 print(merged_df.dtypes)
-#merged_df.to_csv(r"D:\dataset\created_data\merged_df.csv", index=False)
+merged_df.to_csv(r"D:\dataset\created_data\merged_df.csv", index=False)
 
 
 
