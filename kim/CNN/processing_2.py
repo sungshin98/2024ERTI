@@ -2,10 +2,10 @@ import os
 import pandas as pd
 from datetime import datetime
 
-# 원본 데이터셋 경로
-dataset_path = r"D:\dataset"
-# 새로운 데이터셋 경로
-new_dataset_path = os.path.join(dataset_path, "created_train_data")
+
+dataset_path = r"D:\dataset" # 원본 데이터셋 경로로 데이터 셋 저장되어 있는 위치로 설정
+
+new_dataset_path = os.path.join(dataset_path, "created_train_data") # 새로운 데이터셋 경로로 저장할 위치랑 파일 이름 설정할 것
 
 # 필요한 디렉토리 생성
 if not os.path.exists(new_dataset_path):
