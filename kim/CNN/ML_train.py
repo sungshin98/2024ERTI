@@ -9,7 +9,7 @@ from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropou
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import ModelCheckpoint
 
-# 경로 설정
+# 경로 설정 -> 이미지 저장했던 주소와 훈련 레이블의 주소, 모델 저장할 주소로 설정
 image_save_path = r"D:\dataset\images"
 label_file_path = r"D:\dataset\train_label.csv"
 model_save_path = r"D:\dataset\model"
