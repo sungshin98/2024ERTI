@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
 
-# 경로 설정
+# 경로 설정 -> 전처리에 파일에서 설정했던 주소로 설정하고 이미지 저장할 주소로 설정
 new_dataset_path = r"D:\dataset\created_train_data"
 image_save_path = r"D:\dataset\images"
 
